@@ -1,5 +1,5 @@
 import React, {Component, PropTypes} from 'react';
-import createReactNativeComponentClass from 'react-native/Libraries/Renderer/src/renderers/native/createReactNativeComponentClass';
+import createReactNativeComponentClass from 'react-native/Libraries/Renderer/shims/createReactNativeComponentClass';
 import {ClipPathAttributes} from '../lib/attributes';
 
 export default class extends Component{
